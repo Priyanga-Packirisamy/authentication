@@ -28,6 +28,7 @@ if Password.length >= 9 && Password.length <=13
     else
         puts "Invalid password"
         puts "Password : #{Password}"
+        puts "Enter a valid password"
     end
 else
     puts "Retype password of greater than 8 characters and less than 12 characters"

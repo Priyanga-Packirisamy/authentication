@@ -27,6 +27,7 @@ if Password.length >= 9 && Password.length <=13
         puts "Password : #{Password}"
     else
         puts "Invalid password"
+        puts " enter correct passsword"
         puts "Password : #{Password}"
     end
 else
